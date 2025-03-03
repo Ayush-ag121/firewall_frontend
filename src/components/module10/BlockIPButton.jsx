@@ -20,7 +20,7 @@ const BlockIPButton = () => {
     return (
         <div>
             <button onClick={handleBlockIP} disabled={loading}>
-                {loading ? 'Blocking IP...' : 'Start SSH Log Analysis & Block IP'}
+                {loading ? 'Blocking IP...' : 'SSH Block IP Manually'}
             </button>
             {message && <p>{message}</p>}
         </div>
