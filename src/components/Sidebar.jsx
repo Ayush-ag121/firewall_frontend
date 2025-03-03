@@ -126,7 +126,7 @@ export default function Sidebar() {
             // onClick={toogleOtherComponents}
           >
             <GrNotes />
-            <span>Rules Deletion</span>
+            <span>SSH Bruteforce Detection</span>
           </div>
           {/* <div
             // href="/module6"
